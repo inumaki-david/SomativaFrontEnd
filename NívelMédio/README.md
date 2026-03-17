@@ -19,3 +19,5 @@ O desenvolvimento deste projeto foi uma jornada de aprendizagem prática muito i
 * **HTML:** Esta etapa foi tranquila, pois já possuía conhecimentos prévios sobre a marcação e estruturação de elementos.
 * **CSS:** A parte visual também foi acessível, embora tenha sido necessário consultar a **documentação oficial do CSS** para ajustar elementos específicos e implementar animações que eu ainda não conhecia.
 * **JavaScript:** Foi o maior desafio. Embora a parte inicial (selecionar elementos pelo ID e criar funções básicas) tenha sido direta, a **lógica de programação** foi complexa. Pensar em como converter horas/minutos para segundos totais, gerir o estado de pausa e garantir que o intervalo parasse no momento certo exigiu bastante raciocínio. Contei com o auxílio de IA para estruturar melhor a lógica e as condições de verificação.
+
+Davi Martins
