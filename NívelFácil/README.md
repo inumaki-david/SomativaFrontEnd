@@ -14,4 +14,4 @@ Depois, o código define sons para cada cor e um som de erro. Assim, sempre que 
 Quando o jogador clica no botão Iniciar, o jogo reinicia todas as informações e começa a primeira rodada. A cada rodada, o jogo adiciona uma nova cor aleatória à sequência e mostra essa sequência piscando para o jogador.
 Em seguida, o jogador precisa clicar nas cores na mesma ordem. Cada clique é registrado e comparado com a sequência do jogo. Se o jogador acertar tudo, ele passa para o próximo nível, onde a sequência fica maior. Se errar, o jogo termina, toca um som de erro e aparece uma mensagem perguntando se ele quer jogar novamente.
 
-Maria Eduarda, Davi, João.
+Maria, Davi, João.
