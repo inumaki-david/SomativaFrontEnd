@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container"> <!-- Container principal que organiza todo o conteúdo -->
+        <h1>Temporizador</h1>
+
+        <div class="entradas"> <!-- Área que agrupa os campos de entrada de tempo -->
+            <div class="caixa-entrada"> <!-- Caixa que contém o campo de horas -->
+                <label>Horas</label>
+                <input type="number" id="horas" placeholder="00" min="0" max="23">
+                <!-- placeholder mostra 00 como exemplo -->
+                <!-- min e max limitam valores entre 0 e 23 -->
+            </div>
+            <span>:</span> <!-- Apenas um separador visual -->
+            <div class="caixa-entrada"> <!-- Caixa que contém o campo de minutos -->
+                <label>Minutos</label>
+                <input type="number" id="minutos" placeholder="00" min="0" max="59">
+                <!-- Valores permitidos de 0 a 59 -->
+            </div>
+            <span>:</span>
+            <div class="caixa-entrada"> <!-- Caixa que contém o campo de segundos -->
+                <label>Segundos</label>
+                <input type="number" id="segundos" placeholder="00" min="0" max="59">
+                <!-- Valores permitidos de 0 a 59 -->
+            </div>
+        </div>
+
+        <div class="tela" id="tela-tempo">00:00:00</div> <!-- Tela que mostra o tempo do temporizador -->
+        <div class="controles"> <!-- Container que contém os botões de controle -->
+            <button id="btn-inicio" class="btn inicio">Iniciar</button> <!-- Botão que inicia o temporizador -->
+            <button id="btn-pausar" class="btn pausar">Pausar</button> <!-- Botão que pausa o temporizador -->
+            <button id="btn-resetar" class="btn resetar">Reiniciar</button> <!-- Botão que reinicia o temporizador -->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
