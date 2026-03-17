@@ -22,6 +22,6 @@ function calcular() {
         display.value = eval(display.value);
     } catch (error) {
         display.value = "Erro";
-        setTimeout(clearDisplay, 1500); // limpa o visor após mostrar o erro
+        setTimeout(limparTela, 1500); // limpa o visor após mostrar o erro
     }
 }
