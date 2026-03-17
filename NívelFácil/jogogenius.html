@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Genius</title>
+</head>
+<body>
+
+    <h1>Jogo Genius</h1> <!-- Título principal exibido na página -->
+    <p id="mensagem">Clica em Iniciar para jogar!</p> 
+
+    <button id="btn-start">Iniciar Jogo</button> <!-- Botão para iniciar o jogo, com ID para ser usado no JavaScript -->
+
+    <div class="borda"> <!-- Container externo do jogo -->
+        <div class="genius"> <!-- Div principal do jogo (tabuleiro do Genius) -->
+            <div class="azul" data-cor="blue"></div>  <!-- Área azul -->
+            <div class="vermelho" data-cor="red"></div> <!-- Área vermelha -->
+            <div class="amarelo" data-cor="yellow"></div> <!-- Área amarela -->
+            <div class="verde" data-cor="green"></div> <!-- Área verde -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
