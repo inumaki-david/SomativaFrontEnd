@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Básica - Atividade Somativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculadora"> <!-- container da calculadora -->
+        <input type="text" id="display" disabled> <!-- visor da calculadora -->
+        <table class="buttons"> <!-- tabela para organizar os botões -->
+            <tr>
+                <td colspan="2"><button onclick="limparTela()">C</button></td>
+                <td><button onclick="deletarUltimo()">DEL</button></td>
+                <td><button onclick="addTela('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="addTela('7')">7</button></td>
+                <td><button onclick="addTela('8')">8</button></td>
+                <td><button onclick="addTela('9')">9</button></td>
+                <td><button onclick="addTela('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="addTela('4')">4</button></td>
+                <td><button onclick="addTela('5')">5</button></td>
+                <td><button onclick="addTela('6')">6</button></td>
+                <td><button onclick="addTela('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="addTela('1')">1</button></td>
+                <td><button onclick="addTela('2')">2</button></td>
+                <td><button onclick="addTela('3')">3</button></td>
+                <td><button onclick="addTela('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="addTela('0')">0</button></td>
+                <td><button onclick="addTela('.')">.</button></td>
+                <td><button onclick="calcular()" class="btn-igual">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
